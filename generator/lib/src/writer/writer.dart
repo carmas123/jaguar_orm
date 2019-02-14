@@ -1049,6 +1049,7 @@ String _uncap(String str) =>
     str.substring(0, 1).toLowerCase() + str.substring(1);
 
 String _camToSnak(String str) {
+  return str;
   final sb = StringBuffer();
 
   for (int i = 0; i < str.length; i++) {
